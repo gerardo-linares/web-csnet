@@ -23,18 +23,18 @@ const Hero = () => {
             <h1 className="h1 text-3xl mb-8">
               <span className="text-primary">CSNET </span>
               <br />
-              la velocidad del futuro, hoy.
+              La velocidad del futuro, hoy.
             </h1>
 
             {/*botones */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
-              <Link href="/contact">
+              <Link href="#services">
                 <Button className="gap-x-2 " size={"lg"}>
                   Servicios
                   <Wifi size={18} />
                 </Button>
               </Link>
-              <Link href="/payments">
+              <Link href="#prices">
                 <Button variant="secondary" className="gap-x-2" size={"lg"}>
                   Planes
                   <CreditCard size={18} />

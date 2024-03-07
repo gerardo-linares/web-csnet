@@ -13,7 +13,7 @@ const Cta = () => {
               Haz click para mas info...
             </span>
           </h2>
-          <Link href="/contact">
+          <Link href="https://wa.me/+5491134235068">
             <Button>Pedir Internet</Button>
           </Link>
         </div>
