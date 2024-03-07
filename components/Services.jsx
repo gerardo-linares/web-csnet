@@ -1,4 +1,4 @@
-import { Headset, SignalHigh, Wifi, Cpu } from "lucide-react";
+import { Headset, SignalHigh, Wifi } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -26,12 +26,6 @@ const servicesData = [
     description:
       "Respondemos tu consulta dentro de las 24 horas. Rápida reacción ante la necesidad del cliente. Eres muy importante para nosotros.",
   },
-  {
-    icon: <Cpu size={72} strokeWidth={0.8} />,
-    title: "TECNOLOGÍA DE VANGUARDIA",
-    description:
-      "Interconexiones mediante lineas de fibra óptica. Usamos los equipos más modernos para asegurar la mejor calidad que te mereces.",
-  },
 ];
 const Services = () => {
   return (
@@ -41,7 +35,7 @@ const Services = () => {
           Servicios
         </h2>
         {/*grid items */}
-        <div className="grid xl:grid-cols-4 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8">
+        <div className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8">
           {servicesData.map((item, index) => {
             return (
               <Card
