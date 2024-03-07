@@ -3,19 +3,29 @@ import Link from "next/link";
 
 const Cta = () => {
   return (
-    <section className="py-24 bg-primary/20 dark:bg-secondary/40">
+    <section className="py-24 bg-primary/10 dark:bg-secondary/40 drop-shadow-2xl">
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
-          <h2 className="h2 max-w-xl text-center mb-8">
+          <h2 className="h2 max-w-xl text-center mb-8 text-purple-500">
             Internet al Mejor Precio
             <br />{" "}
             <span className="text-xl text-slate-600">
               Haz click para mas info...
             </span>
           </h2>
-          <Link href="https://wa.me/+5491134235068">
-            <Button>Pedir Internet</Button>
-          </Link>
+          <div className="flex gap-2">
+            <Link href="https://wa.me/+5491134235068">
+              <Button>Pedir Internet</Button>
+            </Link>
+            <Link href="https://clientes.portalinternet.app/saldo/ispcs/">
+              <Button
+                className="bg-primary/30 hover:bg-primary/90"
+                variant="secondary"
+              >
+                Abonar el Mes
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </section>

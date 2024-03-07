@@ -34,7 +34,11 @@ const Hero = () => {
                 </Button>
               </Link>
               <Link href="#prices">
-                <Button variant="secondary" className="gap-x-2" size={"lg"}>
+                <Button
+                  variant="secondary"
+                  className="gap-x-2 bg-primary/30 hover:bg-primary/90"
+                  size={"lg"}
+                >
                   Planes
                   <CreditCard size={18} />
                 </Button>
@@ -62,15 +66,15 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[55%] -right-8 mr-4"
               icon={<RiTeamFill />}
-              endCountNum={2000}
-              badgeText="Clientes Felices"
+              endCountNum={3000}
+              badgeText="Clientes en la Red"
             />
             <RedImg imgSrc="/hero/hero.jpg" />
           </div>
         </div>
         {/*icono*/}
         <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 ">
-          <RiArrowDownSLine className="text-3xl text-primary" />
+          <RiArrowDownSLine className="text-3xl text-purple-500" />
         </div>
       </div>
     </section>

@@ -14,8 +14,8 @@ const PricesData = [
     title: "Plan Basic",
     type: "SIMETRÍCA",
     description: "HOGAR",
-    upload: "100 Mb",
-    download: "100 Mb",
+    upload: "30 Mb",
+    download: "30 Mb",
     speed: "Sin limites",
     price: "8000",
   },
@@ -37,12 +37,12 @@ const PricesData = [
     upload: "300 Mb",
     download: "300 Mb",
     speed: "Sin limites ",
-    price: "21000",
+    price: "27000",
   },
 ];
 const Prices = () => {
   return (
-    <section className="mb-12 xl:mb-36 container mx-auto ">
+    <section className="mb-12 xl:mb-36 container mx-auto bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none ">
       <h2
         className="section-title mb-12 mt-24 xl:mb-24 text-center mx-auto"
         id="prices"
@@ -59,7 +59,7 @@ const Prices = () => {
                 key={index}
               >
                 <CardHeader className=" text-white absolute -top-[10px] w-full ">
-                  <div className=" flex justify-center items-center bg-primary/50 rounded-md  drop-shadow-lg">
+                  <div className=" flex justify-center items-center bg-purple-500/60 rounded-md  drop-shadow-lg">
                     {item.promo}
                   </div>
                 </CardHeader>
