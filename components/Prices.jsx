@@ -21,7 +21,7 @@ const PricesData = [
   },
   {
     promo: "MÁS PEDIDO",
-    title: "Plan Standar",
+    title: "Plan Standard",
     type: "SIMETRÍCA",
     description: "GAMER",
     upload: "100 Mb",
@@ -55,7 +55,7 @@ const Prices = () => {
           {PricesData.map((item, index) => {
             return (
               <Card
-                className="w-full max-w-[400px] h-[480px] flex flex-col justify-center items-center relative drop-shadow-2xl  "
+                className="w-full max-w-[450px] h-[480px] flex flex-col justify-center items-center relative drop-shadow-2xl  "
                 key={index}
               >
                 <CardHeader className=" text-white absolute -top-[10px] w-full ">

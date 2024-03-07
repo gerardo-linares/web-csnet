@@ -10,7 +10,7 @@ const Badge = ({
 }) => {
   return (
     <div
-      className={`badge bg-slate-50 z-10 rounded-xl shadow-lg drop-shadow-lg p-2 ${containerStyles}`}
+      className={` bg-slate-50 z-10 rounded-xl shadow-lg drop-shadow-lg p-2 ${containerStyles}`}
     >
       <div className="text-3xl text-primary">{icon}</div>
       <div className="flex items-center gap-x-2">

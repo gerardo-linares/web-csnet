@@ -12,22 +12,21 @@ import Badge from "./Badge";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
+    <section className="pt-28 lg:py-24 h-[84vh]  lg:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none ">
       <div className="container mx-auto">
-        <div className="flex justify-between gap-x-8">
+        <div className="flex flex-cols-2 gap-x-6 ">
           {/*texto */}
-          <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
+          <div className="flex max-w-[600px] flex-col justify-center mx-auto lg:mx-0 text-center lg:text-left">
             <div className="text-lg uppercase font-bold mb-4 text-primary tracking-[4px]">
               Servicio de internet de alta velocidad
             </div>
-            <h1 className="h1 text-3xl mb-8">
-              <span className="text-primary">CSNET </span>
-              <br />
-              La velocidad del futuro, hoy.
+            <h1 className="text-4xl xl:text-[60px] lg:leading-[60px] tracking-[-2px] font-bold h1  mb-8">
+              <p className="text-primary mt-2">CSNET </p>
+              La velocidad <br /> del futuro, hoy.
             </h1>
 
             {/*botones */}
-            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
+            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto lg:mx-0 mb-12 mt-8 lg:mt-0">
               <Link href="#services">
                 <Button className="gap-x-2 " size={"lg"}>
                   Servicios
@@ -44,7 +43,7 @@ const Hero = () => {
           </div>
           {/*imagen */}
           {/*imagen */}
-          <div className="hidden xl:flex relative ">
+          <div className="hidden lg:flex relative  ">
             {/*badge 1 */}
             <Badge
               containerStyles="absolute top-[10%] -left-[-4rem]"
@@ -66,7 +65,6 @@ const Hero = () => {
               endCountNum={2000}
               badgeText="Clientes Felices"
             />
-
             <RedImg imgSrc="/hero/hero.jpg" />
           </div>
         </div>
