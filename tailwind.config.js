@@ -2,10 +2,10 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
   ],
   prefix: "",
   theme: {
@@ -13,7 +13,10 @@ module.exports = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1400px",
       },
     },
     extend: {
@@ -30,6 +33,9 @@ module.exports = {
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+        },
+        tertiary: {
+          DEFAULT: "hsl(var(--tertiary))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -71,7 +77,15 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        hero: "url(/hero/hero-bg.png)",
+        hero_shape: "url(/hero/shape-1.svg)",
+        hero_shape2_light: "url(/hero/shape-2-light.svg)",
+        hero_shape2_dark: "url(/hero/shape-2-dark.svg)",
+        about_shape_light: "url(/about/shape-light.svg)",
+        about_shape_dark: "url(/about/shape-dark.svg)",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
