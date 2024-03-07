@@ -15,7 +15,7 @@ const Footer = () => {
           <div>
             <Logo />
           </div>
-          <p className="text-sm text-white">" Servicio de internet"</p>
+          <p className="text-sm text-white">Servicio de internet</p>
         </div>
         <div className="flex flex-col space-y-2">
           <h2 className="title-font font-medium  tracking-widest text-sm mb-3 flex flex-col text-center md:text-left text-white">
