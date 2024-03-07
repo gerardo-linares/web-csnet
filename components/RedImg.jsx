@@ -6,9 +6,10 @@ const RedImg = ({ containerStyles, imgSrc }) => {
       <Image
         className="rounded-[20px]"
         src={imgSrc}
-        fill
         priority
         alt="RedImg"
+        width={710}
+        height={540}
       />
     </div>
   );

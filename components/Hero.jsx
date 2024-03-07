@@ -17,10 +17,14 @@ const Hero = () => {
         <div className="flex justify-between gap-x-8">
           {/*texto */}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
-            <div className="text-5xl uppercase font-bold mb-4 text-primary tracking-[4px]">
+            <div className="text-lg uppercase font-bold mb-4 text-primary tracking-[4px]">
               Servicio de internet de alta velocidad
             </div>
-            <h1 className="h1 text-3xl mb-8">La velocidad del futuro, hoy.</h1>
+            <h1 className="h1 text-3xl mb-8">
+              <span className="text-primary">CSNET </span>
+              <br />
+              la velocidad del futuro, hoy.
+            </h1>
 
             {/*botones */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -32,7 +36,7 @@ const Hero = () => {
               </Link>
               <Link href="/payments">
                 <Button variant="secondary" className="gap-x-2" size={"lg"}>
-                  Planes y Pagos
+                  Planes
                   <CreditCard size={18} />
                 </Button>
               </Link>
@@ -63,10 +67,7 @@ const Hero = () => {
               badgeText="Clientes Felices"
             />
 
-            <RedImg
-              containerStyles="bg-hero_shape w-[710px] h-[540px] bg-no-repeat  bg-center right-4"
-              imgSrc="/hero/hero.jpg"
-            />
+            <RedImg imgSrc="/hero/hero.jpg" />
           </div>
         </div>
         {/*icono*/}
