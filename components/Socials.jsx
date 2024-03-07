@@ -1,22 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import {
-  RiLinkedinFill,
-  RiGithubFill,
-  RiInstagramFill,
-  RiFacebookFill,
-} from "react-icons/ri";
+import { RiInstagramFill, RiFacebookFill } from "react-icons/ri";
 
 const icons = [
-  {
-    path: "/",
-    name: <RiGithubFill />,
-  },
-  {
-    path: "/",
-    name: <RiLinkedinFill />,
-  },
   {
     path: "/",
     name: <RiInstagramFill />,
