@@ -1,17 +1,17 @@
 "use client";
-
+/** 
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { User, MailIcon, ArrowRightIcon, MessageSquare } from "lucide-react";
-
-const Form = () => {
+*/
+const CtaSecondary = () => {
   return (
     <section className="mt-28">
-      <div className="w-full mx-auto bg-primary/10 drop-shadow-2xl">
-        <h2 className="h3 text-center m-16 p-10 text-purple-500 md:w-2/3 mx-auto">
-          ¡Descubre si estamos en tu barrio! Estamos creciendo rápidamente y
-          llegando a más lugares cada día.
+      <div className="w-full mx-auto bg-primary/5 drop-shadow-2xl">
+        <h2 className="h3 text-center m-16 p-10 text-primary md:w-2/3 mx-auto">
+          Ahora es más facil abonar tu factura escaneando el codigo QR <br />{" "}
+          ¡Todos los medios de pago!
         </h2>
       </div>
       <div className="flex flex-col-reverse lg:flex-row gap-6 container mx-auto ">
@@ -26,7 +26,13 @@ const Form = () => {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-
+        <div className="lg:w-1/2 flex justify-center items-center">
+          <h2 className="h4 text-center  text-purple-500  lg:text-left mx-auto">
+            ¡Descubre si estamos en tu barrio! Estamos creciendo rápidamente y
+            llegando a más lugares cada día.
+          </h2>
+        </div>
+        {/* 
         <form className="flex flex-col gap-y-4 lg:w-1/2">
           <div className="relative flex items-center">
             <Input type="name" id="name" placeholder="Nombre" />
@@ -45,9 +51,10 @@ const Form = () => {
             <ArrowRightIcon size={20} />
           </Button>
         </form>
+        */}
       </div>
     </section>
   );
 };
 
-export default Form;
+export default CtaSecondary;

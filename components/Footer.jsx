@@ -1,9 +1,4 @@
-import {
-  HiOutlineGlobeEuropeAfrica,
-  HiOutlineDevicePhoneMobile,
-  HiOutlineMap,
-  HiOutlineClock,
-} from "react-icons/hi2";
+import { LuMail, LuSmartphone, LuClock2 } from "react-icons/lu";
 import Logo from "./Logo";
 import Link from "next/link";
 
@@ -26,11 +21,14 @@ const Footer = () => {
               Inicio
             </Link>
 
-            <Link href="/" className=" hover:text-gray-300 text-white">
+            <Link href="#prices" className=" hover:text-gray-300 text-white">
               Planes Actuales
             </Link>
 
-            <Link href="/" className=" hover:text-gray-300 text-white">
+            <Link
+              href="https://clientes.portalinternet.app/saldo/ispcs/"
+              className=" hover:text-gray-300 text-white"
+            >
               Pagos Directos
             </Link>
           </nav>
@@ -57,29 +55,24 @@ const Footer = () => {
           </h2>
           <nav className=" flex flex-col gap-2 text-center md:text-left">
             <div className="flex items-center gap-2 justify-center md:justify-start  text-white">
-              <HiOutlineGlobeEuropeAfrica className="text-3xl" />
-              <p className=" hover:text-gray-300  text-white ">
-                <Link href="www.csnet.com.ar">www.csnet.com.ar</Link>
+              <LuMail className="text-2xl" />
+              <p className=" hover:text-gray-300  text-white cursor-pointer ">
+                <Link href="www.csnet.com.ar">csnet@mail.com</Link>
               </p>
             </div>
             <div className="flex items-center gap-2 justify-center md:justify-start text-white">
-              <HiOutlineDevicePhoneMobile className="text-3xl" />
-              <p className=" hover:text-gray-300 text-white">
+              <LuSmartphone className="text-2xl" />
+              <p className=" hover:text-gray-300 text-white cursor-pointer">
                 <Link href="https://wa.me/+5491134235068">
                   {" "}
                   +54 911 3423 5068
                 </Link>
               </p>
             </div>
+
             <div className="flex items-center gap-2 justify-center md:justify-start text-white">
-              <HiOutlineMap className="text-3xl" />
-              <p className=" hover:text-gray-300 text-white">
-                <Link href="/">testdireccion 123123</Link>
-              </p>
-            </div>
-            <div className="flex items-center gap-2 justify-center md:justify-start text-white">
-              <HiOutlineClock className="text-3xl" />
-              <p className=" hover:text-gray-300 text-white">
+              <LuClock2 className="text-2xl" />
+              <p className=" hover:text-gray-300 text-white cursor-pointer">
                 <Link href="/">Lunes a Viernes de 8 a 20hs</Link>
               </p>
             </div>

@@ -20,14 +20,14 @@ const PricesData = [
     price: "8000",
   },
   {
-    promo: "MÁS PEDIDO",
+    promo: "EL MÁS PEDIDO",
     title: "Plan Standard",
     type: "SIMETRÍCA",
     description: "GAMER",
     upload: "100 Mb",
     download: "100 Mb",
     speed: "Sin limites",
-    price: "9200",
+    price: "9000",
   },
   {
     promo: "",
