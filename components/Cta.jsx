@@ -10,12 +10,12 @@ const Cta = () => {
             Internet al Mejor Precio
             <br />{" "}
             <span className="text-xl text-slate-600">
-              Haz click para mas info...
+              Haz click y solicita tu instalación...
             </span>
           </h2>
           <div className="flex gap-2">
-            <Link href="https://wa.me/+5491134235068">
-              <Button>Pedir Internet</Button>
+            <Link href="https://clientes.portalinternet.app/solicitar-instalacion/ispcs/">
+              <Button>Solicitar Internet</Button>
             </Link>
             <Link href="https://clientes.portalinternet.app/saldo/ispcs/">
               <Button
