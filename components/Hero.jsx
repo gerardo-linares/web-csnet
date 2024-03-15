@@ -12,7 +12,7 @@ import Badge from "./Badge";
 
 const Hero = () => {
   return (
-    <section className="pt-16 lg:py-24 h-[84vh]  lg:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none ">
+    <section className="pt-24 lg:py-24 h-[84vh]  lg:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none ">
       <div className="container mx-auto">
         <div className="flex flex-cols-2 gap-x-6 ">
           {/*texto */}

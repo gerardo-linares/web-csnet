@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Prices from "@/components/Prices";
 import Services from "@/components/Services";
 import CtaSecondary from "@/components/CtaSecondary";
+import Map from "@/components/Map";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Cta />
       <Prices />
       <CtaSecondary />
+      <Map />
     </main>
   );
 }

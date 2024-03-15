@@ -20,7 +20,7 @@ const PricesData = [
     price: "8000",
   },
   {
-    promo: "EL MÁS PEDIDO",
+    promo: "¡EL MÁS PEDIDO!",
     title: "Plan Standard",
     type: "SIMETRÍCA",
     description: "GAMER",
@@ -37,7 +37,7 @@ const PricesData = [
     upload: "300 Mb",
     download: "300 Mb",
     speed: "Sin limites ",
-    price: "27000",
+    price: "10000",
   },
 ];
 const Prices = () => {

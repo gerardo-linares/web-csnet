@@ -84,6 +84,8 @@ module.exports = {
         hero_shape2_dark: "url(/hero/shape-2-dark.svg)",
         about_shape_light: "url(/about/shape-light.svg)",
         about_shape_dark: "url(/about/shape-dark.svg)",
+        cta_shape: "url(/cta/cta.png",
+        ctam_shape: "url(/cta/ctam.png",
       },
     },
   },
