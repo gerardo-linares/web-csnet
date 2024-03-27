@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 const links = [
   { path: "/", name: "Inicio" },
-  { path: "https://clientes.portalinternet.app/saldo/ispcs/", name: "Pagos" },
+  { path: "https://csnet.portaldeinternet.me/users/login", name: "Pagos" },
   { path: "https://wa.me/+5491134235068", name: "Contacto" },
 ];
 const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {

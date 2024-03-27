@@ -18,7 +18,7 @@ const Cta = () => {
             <Link href="https://clientes.portalinternet.app/solicitar-instalacion/ispcs/">
               <Button>Solicitar Internet</Button>
             </Link>
-            <Link href="https://clientes.portalinternet.app/saldo/ispcs/">
+            <Link href="https://csnet.portaldeinternet.me/users/login">
               <Button
                 className="bg-primary/30 hover:bg-primary/90"
                 variant="secondary"
